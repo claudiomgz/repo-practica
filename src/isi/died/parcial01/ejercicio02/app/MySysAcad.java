@@ -1,5 +1,7 @@
 package isi.died.parcial01.ejercicio02.app;
 
+import java.util.List;
+
 import isi.died.parcial01.ejercicio02.dominio.*;
 
 
@@ -26,6 +28,6 @@ public interface MySysAcad {
 	 * de la materia y del docente
 	 */
 	public void inscribirAlumnoExamen(Docente d,Alumno a, Materia m);
-	
+	public List<Materia> materiasAprobadas(Alumno m);
 
 }

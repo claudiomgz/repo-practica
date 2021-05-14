@@ -49,4 +49,10 @@ public class Alumno {
 		e.setInscripto(this);
 	}
 
+
+	public List<Inscripcion> getCursadas() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
